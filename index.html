@@ -26,6 +26,14 @@ h1{margin:0;font-size:38px}p{margin:0 0 14px;color:var(--muted)}
 #ads{margin-top:12px;min-height:90px;border:1px dashed var(--border);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--muted)}
 footer{margin-top:16px;color:var(--muted);font-size:14px}
 @media(max-width:760px){h1{font-size:34px}.actions{grid-template-columns:1fr}}
+     .ads-grid {
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 640px) {
+  .ads-grid { grid-template-columns: 1fr 1fr; }
+}
+
 
 /* Brand buttons */
 .btn.yt{background:#FF0000;color:#fff;border:none}
@@ -57,20 +65,23 @@ footer{margin-top:16px;color:var(--muted);font-size:14px}
 
   <!-- AdSense: înlocuiește XXX cu publisher-id când îl ai -->
   <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXX" crossorigin="anonymous"></script> -->
-  <div id="ads">
+  <div class="ads-grid">
   <ins class="adsbygoogle"
        style="display:block"
        data-ad-client="ca-pub-6861206389335484"
-       data-ad-slot="AICI_SLOTUL_TĂU"
+       data-ad-slot="PRIMUL_SLOT"
        data-ad-format="auto"
        data-full-width-responsive="true"></ins>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-6861206389335484"
+       data-ad-slot="AL_DOILEA_SLOT"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 </div>
-
-
-
   <footer>© 2025 Rhapsody Food</footer>
 </div></div>
 </body></html>
