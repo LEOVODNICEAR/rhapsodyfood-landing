@@ -1,89 +1,173 @@
-<!doctype html><html lang="ro"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Rhapsody Food — rețete simple și delicioase</title>
-<meta name="description" content="Rhapsody Food: rețete simple și delicioase. Abonează-te pe YouTube și urmărește-ne pe TikTok, Facebook, Instagram și Telegram.">
-<link rel="canonical" href="https://rhapsodyfood.com/">
-<!-- OG/Twitter (poți seta ulterior o PNG 1200×630) -->
-<meta property="og:type" content="website"><meta property="og:url" content="https://rhapsodyfood.com/">
-<meta property="og:title" content="Rhapsody Food — rețete simple și delicioase">
-<meta property="og:description" content="Clipuri scurte, idei rapide.">
-<meta property="og:image" content="/og-1200x630.png">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Rhapsody Food">
-<meta name="twitter:description" content="Rețete simple și delicioase."><meta name="twitter:image" content="/og-1200x630.png">
-<link rel="icon" href="/favicon.ico">
-<style>
-:root{--fg:#0f172a;--muted:#475569;--bg:#f8fafc;--card:#fff;--brand:#f59e0b;--border:#e2e8f0}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto}
-.wrap{max-width:900px;margin:0 auto;padding:48px 20px}
-.card{background:var(--card);border-radius:20px;box-shadow:0 10px 30px rgba(2,6,23,.08);padding:28px}
-.hero{display:flex;align-items:center;gap:14px;margin-bottom:10px}
-.hero .logo{width:68px;height:68px;flex:0 0 68px;object-fit:contain}
-@media (min-width:480px){ .hero .logo{width:72px;height:72px} }
-h1{margin:0;font-size:38px}p{margin:0 0 14px;color:var(--muted)}
-.actions{display:grid;grid-template-columns:1fr;gap:12px;margin:16px 0}
-.btn{display:flex;align-items:center;justify-content:center;gap:10px;padding:14px 16px;border-radius:12px;text-decoration:none;font-weight:600;border:1px solid var(--border);background:#f1f5f9;color:var(--fg)}
-.btn.primary{background:var(--brand);color:#fff;border:none}
-#ads{margin-top:12px;min-height:90px;border:1px dashed var(--border);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--muted)}
-footer{margin-top:16px;color:var(--muted);font-size:14px}
-@media(max-width:760px){h1{font-size:34px}.actions{grid-template-columns:1fr}}
-     .ads-grid {
-  display: grid;
-  gap: 16px;
-}
-@media (min-width: 640px) {
-  .ads-grid { grid-template-columns: 1fr 1fr; }
-}
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Rhapsody Food — rețete simple și delicioase</title>
+  <meta name="description" content="Rhapsody Food: rețete simple și delicioase. Abonează-te pe YouTube și urmărește-ne pe TikTok, Facebook, Instagram și Telegram.">
+  <link rel="canonical" href="https://rhapsodyfood.com/">
+  <!-- OG/Twitter -->
+  <meta property="og:type" content="website"><meta property="og:url" content="https://rhapsodyfood.com/">
+  <meta property="og:title" content="Rhapsody Food — rețete simple și delicioase">
+  <meta property="og:description" content="Clipuri scurte, idei rapide.">
+  <meta property="og:image" content="/og-1200x630.png">
+  <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Rhapsody Food">
+  <meta name="twitter:description" content="Rețete simple și delicioase."><meta name="twitter:image" content="/og-1200x630.png">
+  <link rel="icon" href="/favicon.ico">
 
+  <!-- AdSense AUTOMAT (doar auto-ads, fără blocuri fixe) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6861206389335484" crossorigin="anonymous"></script>
 
-/* Brand buttons */
-.btn.yt{background:#FF0000;color:#fff;border:none}
-.btn.tt{background:#000000;color:#fff;border:none}
-.btn.fb{background:#1877F2;color:#fff;border:none}
-.btn.ig{background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af,#515bd4);color:#fff;border:none}
-.btn.tg{background:#229ED9;color:#fff;border:none}
-.btn:hover{filter:brightness(.98)}
-</style>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6861206389335484"
-     crossorigin="anonymous"></script>
-</head><body>
-<div class="wrap"><div class="card">
-  <div class="hero">
-  <img class="logo" src="logo.png" alt="Rhapsody Food logo" width="72" height="72" loading="eager" decoding="async">
-  <h1>Rhapsody Food</h1>
-</div>
-  <p>Rețete simple și delicioase. Clipuri scurte, idei rapide.</p>
+  <style>
+    :root{--fg:#0f172a;--muted:#475569;--bg:#f8fafc;--card:#fff;--brand:#f59e0b;--border:#e2e8f0}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto}
+    .wrap{max-width:900px;margin:0 auto;padding:48px 20px}
+    .card{background:var(--card);border-radius:20px;box-shadow:0 10px 30px rgba(2,6,23,.08);padding:28px}
+    .hero{display:flex;align-items:center;gap:14px;margin-bottom:10px}
+    .hero .logo{width:68px;height:68px;flex:0 0 68px;object-fit:contain}
+    @media (min-width:480px){ .hero .logo{width:72px;height:72px} }
+    h1{margin:0;font-size:38px} p{margin:0 0 14px;color:var(--muted)}
+    .actions{display:grid;grid-template-columns:1fr;gap:12px;margin:16px 0}
+    .btn{display:flex;align-items:center;justify-content:center;gap:10px;padding:14px 16px;border-radius:12px;text-decoration:none;font-weight:600;border:1px solid var(--border);background:#f1f5f9;color:var(--fg)}
+    .btn.primary{background:var(--brand);color:#fff;border:none}
+    footer{margin-top:24px;color:var(--muted);font-size:14px}
+    @media(max-width:760px){h1{font-size:34px}.actions{grid-template-columns:1fr}}
 
-<div class="actions">
-  <a class="btn yt" href="https://www.youtube.com/@rhapsodyfood/videos" target="_blank" rel="noopener">YouTube</a>
-  <a class="btn tt" href="https://tiktok.com/@rapsodiafood" target="_blank" rel="noopener">TikTok</a>
-  <a class="btn fb" href="https://facebook.com/rhapsodyfood" target="_blank" rel="noopener">Facebook</a>
-  <a class="btn ig" href="https://instagram.com/rapsodiafood" target="_blank" rel="noopener">Instagram</a>
-  <a class="btn tg" href="https://t.me/JoyCulinary" target="_blank" rel="noopener">Telegram</a>
-  <a class="btn"   href="mailto:vodnicear@gmail.com?subject=Colaborare%20Rhapsody%20Food">Colaborări & reclame</a>
-</div>
+    /* Brand buttons */
+    .btn.yt{background:#FF0000;color:#fff;border:none}
+    .btn.tt{background:#000000;color:#fff;border:none}
+    .btn.fb{background:#1877F2;color:#fff;border:none}
+    .btn.ig{background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af,#515bd4);color:#fff;border:none}
+    .btn.tg{background:#229ED9;color:#fff;border:none}
+    .btn:hover{filter:brightness(.98)}
 
-<!-- în <body>, sub butoane și peste footer (exact cum ai) -->
-<div class="ads-grid">
-  <!-- testanunt1 -->
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-6861206389335484"
-       data-ad-slot="7337134115"
-       data-ad-format="auto"
-       data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    /* --- Secțiunea YouTube (carduri) --- */
+    .section{margin-top:28px}
+    .section h2{font-size:20px;margin:0 0 12px;color:var(--fg)}
+    .cards{display:grid;grid-template-columns:1fr;gap:16px}
+    @media (min-width:680px){ .cards{grid-template-columns:repeat(3,1fr)} }
+    .video-card{background:#fff;border:1px solid var(--border);border-radius:14px;overflow:hidden;box-shadow:0 2px 10px rgba(2,6,23,.06)}
+    /* raport 16:9 */
+    .embed-wrap{position:relative;width:100%;padding-top:56.25%;background:#000}
+    .embed-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+    .vid-meta{padding:12px}
+    .vid-title{font-weight:700;margin:0 0 6px;color:var(--fg)}
+    .vid-desc{margin:0;color:var(--muted);font-size:14px;white-space:pre-line}
+    /* -- (opțional) container vechi pentru ads fixe comentat --
+    #ads{margin-top:12px;min-height:90px;border:1px dashed var(--border);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--muted)}
+    */
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="hero">
+        <img class="logo" src="logo.png" alt="Rhapsody Food logo" width="72" height="72" loading="eager" decoding="async">
+        <h1>Rhapsody Food</h1>
+      </div>
+      <p>Rețete simple și delicioase. Clipuri scurte, idei rapide.</p>
 
-  <!-- testanunt2 -->
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-6861206389335484"
-       data-ad-slot="6271464458"
-       data-ad-format="auto"
-       data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
+      <div class="actions">
+        <a class="btn yt" href="https://www.youtube.com/@rhapsodyfood/videos" target="_blank" rel="noopener">YouTube</a>
+        <a class="btn tt" href="https://tiktok.com/@rapsodiafood" target="_blank" rel="noopener">TikTok</a>
+        <a class="btn fb" href="https://facebook.com/rhapsodyfood" target="_blank" rel="noopener">Facebook</a>
+        <a class="btn ig" href="https://instagram.com/rapsodiafood" target="_blank" rel="noopener">Instagram</a>
+        <a class="btn tg" href="https://t.me/JoyCulinary" target="_blank" rel="noopener">Telegram</a>
+        <a class="btn" href="mailto:vodnicear@gmail.com?subject=Colaborare%20Rhapsody%20Food">Colaborări & reclame</a>
+      </div>
 
+      <!-- YouTube — clipuri -->
+      <div class="section" id="youtube">
+        <h2>YouTube — clipuri</h2>
+        <div class="cards">
+          <!-- CLIP 1 -->
+          <article class="video-card">
+            <div class="embed-wrap">
+              <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/Gw-PIYnA-c0?si=R1-l5Xwcib5z0lyu"
+                title="Desert cu brânză de vaci – rețetă simplă și delicioasă"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+            </div>
+            <div class="vid-meta">
+              <p class="vid-title">Desert cu brânză de vaci – rețetă simplă și delicioasă</p>
+              <p class="vid-desc">Iată o rețetă simplă și delicioasă de desert cu brânză de vaci, perfectă pentru orice moment al zilei. Rapidă de preparat, cremoasă și plină de aromă!
 
-  <footer>© 2025 Rhapsody Food</footer>
-</div></div>
-</body></html>
+Ingrediente:
+Brânză - 600 g
+Făină - 200 g
+Zahăr - 100 g
+Ouă - 2 bucăți
+Zahăr vanilat
+Praf de copt - 10 g
+Coaceți 25 - 30 minute la 180°C
+Bon appétit!</p>
+            </div>
+          </article>
+
+          <!-- CLIP 2 -->
+          <article class="video-card">
+            <div class="embed-wrap">
+              <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/cY50zv_2mpA?si=O4VO-CvJhQENr03s"
+                title="Plăcinte delicioase cu brânză - rețeta perfectă"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+            </div>
+            <div class="vid-meta">
+              <p class="vid-title">Plăcinte delicioase cu brânză - rețeta perfectă</p>
+              <p class="vid-desc">Ingrediente (aluat):
+700 g făină
+500 ml kefir
+1 linguriță sare
+1 lingură zahăr
+1 linguriță bicarbonat de sodiu
+
+Umplutură:
+700 g brânză de vaci
+3 ouă • sare • ulei pentru prăjit</p>
+            </div>
+          </article>
+
+          <!-- CLIP 3 -->
+          <article class="video-card">
+            <div class="embed-wrap">
+              <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/FKodKfwMdww?si=xDZ9JdYcW8Zlep7d"
+                title="Plăcintă cu brânză la cuptor: Ușor și delicios"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+            </div>
+            <div class="vid-meta">
+              <p class="vid-title">Plăcintă cu brânză la cuptor: Ușor și delicios</p>
+              <p class="vid-desc">Foi FILLO – 400 g
+
+Umplutură:
+Brânză de vaci – 500 g
+Ouă – 2 bucăți
+Smântână – 3 linguri
+Sare • Unt topit – 80 g
+
+Pentru tartine: 1 ou, semințe de susan
+Cuptor: 35 minute la 180°C. Poftă bună!</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Blocurile de reclamă fixe au fost eliminate pentru a folosi doar auto-ads
+      <div id="ads">Spațiu reclamă</div>
+      -->
+
+      <footer>© 2025 Rhapsody Food</footer>
+    </div>
+  </div>
+</body>
+</html>
